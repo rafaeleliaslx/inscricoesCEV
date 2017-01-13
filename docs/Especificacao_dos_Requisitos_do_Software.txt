@@ -1,0 +1,123 @@
+Especificação dos Requisitos do Software
+Autor: Rafael Elias Lopes Ximenes
+Teresina-PI
+
+
+1. Introdução:
+1.1. Nome do Produto
+Módulo de Teste Seletivo
+
+
+1.2. Escopo do Produto
+Trata-se de um portal web de administração de Testes Seletivo do Colégio CEV e do Teste Bolsa para o Preparatório de Vestibular, com o intuito de facilitar o cadastro dos participantes e emissão de relatório dos resultados.
+
+
+1.3. Limites do Produto
+
+
+1.4. Materiais de Referência
+Documentação PHP
+https://secure.php.net/manual/pt_BR/index.php
+
+
+2. Descrição Geral do Produto
+2.1. Definição de Requisitos
+2.1.1 Requisitos Funcionais
+
+
+RF1 Criação e edição de Testes:
+O administrador será capaz de criar testes e preenchê-lo com requisitos a sua escolha.
+
+
+RF2 Cadastro de usuário
+O visitante do site poderá cadastrar-se no mesmo para poder inscrever-se em um teste.
+
+
+RF3 Gerenciar Teste
+O usuário criador, ou administrador devidamente identificado pelo criador do evento, poderá adicionar arquivos de sua escolha no intuito de enriquecer o evento gerenciado.
+
+
+RF4 Emissão de Relatório
+O administrador do sistema poderá gerar um relatório dos resultados dos candidatos, visando facilitar a chamada dos selecionados.
+
+
+2.1.2 Requisitos não funcionais
+RNF1 Sistema web
+O sistema será projetado para utilização através de um navegador, através da internet ou aplicativos desenvolvidos utilizando tecnologia web PHP.
+
+
+RNF2 Tempo de resposta
+O sistema deverá realizar todas as tarefas propostas em um tempo razoável.
+
+
+RNF3 Responsivo
+O site muda a sua aparência e disposição com base no tamanho da tela em que o site é exibido. Então, se o usuário tem uma tela pequena, os elementos se reorganizam para lhe mostrar as coisas principais em primeiro lugar.
+
+
+3. Detalhamento de Requisitos
+3.1. Casos de Uso
+
+
+CU1 Cadastrar Usuário
+Realizar o cadastro do usuário no sistema. O mesmo pode agir como participante de eventos ou criar seu próprio evento.
+
+
+CU2 Realizar Login 
+RF2 
+Para entrar no sistema, o usuário deve informar seus dados de Login (usuário e senha).
+
+
+CU3 Buscar Teste 
+RF4 
+Buscar testes no sistema, e mostra os resultados juntamente com as informações principais.
+
+
+CU4 Criar Teste
+RF1 
+Criação de testes que ficarão visíveis para todos os usuários, possibilitando sua inscrição no mesmo.
+
+
+CU5 Editar Teste
+RF3 
+O usuário administrador pode alterar as informações fornecidas anteriormente no cadastro do evento.
+
+
+CU6 Cadastrar em Teste
+RF5 
+O usuário devidamente logado no sistema, poderá cadastrar-se em um ou mais Teste de seu interesse.
+
+
+3.2. Especificação dos casos de uso
+
+
+3.2.1. Subfluxo Cadastrar Usuário
+PASSOS
+1 – Preencher E-mail e senha;
+2 – Preencher dados para finalização do cadastro.
+
+
+3.2.2. Subfluxo Login
+PASSOS
+1 – Clicar em "Logar";
+2 – Preencher email e senha;
+3 – Clicar em “Continuar”.
+
+
+3.2.3. Subfluxo Criar Teste
+PASSOS
+1 – Acessar o domínio de Administrador;
+2 – Fazer login com email e senha;
+3 – Selecionar a opção Testes;
+4 – Clicar em "Adicionar novo teste";
+5 – Preencher os campos solicitados;
+6 – Clicar em "Cadastrar".
+
+
+3.2.4. Subfluxo Editar Teste
+PASSOS
+1 – Acessar o domínio de Administrador;
+2 – Fazer login com email e senha;
+3 – Selecionar a opção Testes;
+4 – Clicar na opção "Editar" ao lado do teste selecionado;
+5 – Editar os campos escolhidos;
+6 – clicar em "Editar" para concluir a edição.

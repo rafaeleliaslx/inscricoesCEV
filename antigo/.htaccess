@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule !\.(jpg|png|gif|swf|css|pdf|doc|docx|ppt|xls|xlsx|js)$ index.php
+rewriteRule ^index\.html /index\.php
+AddHandler php5-script .php
